@@ -1,9 +1,9 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
-##   Version 	: 	2.3.4
-##   Github 	: 	https://github.com/htr-tech/zphisher
+##   darkphish 	: 	Automated Phishing Tool
+##   Author 	: 	Dark Vyper 
+##   Version 	: 	2.3.5
+##   Github 	: 	https://github.com/darkvyper/darkphish
 
 
 ##                   GNU GENERAL PUBLIC LICENSE
@@ -203,27 +203,29 @@ check_status() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : ${__version__}
+     _            _          _     _     _     
+    | |          | |        | |   (_)   | |    
+  __| | __ _ _ __| | ___ __ | |__  _ ___| |__  
+ / _` |/ _` | '__| |/ / '_ \| '_ \| / __| '_ \ 
+| (_| | (_| | |  |   <| |_) | | | | \__ \ | | |
+ \__,_|\__,_|_|  |_|\_\ .__/|_| |_|_|___/_| |_|
+                      | |                      
+                      |_|  ${RED}Version : 2.3.5 ${__version__}
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Dark Vyper ${WHITE}
 	EOF
 }
 
 ## Small Banner
 banner_small() {
 	cat <<- EOF
-		${BLUE}
-		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} ${__version__}
+   d         k         h           h    
+   d         k k       h    ii     h    
+ ddd  aa rrr kk   ppp  hhh      ss hhh  
+d  d a a r   k k  p  p h  h ii  s  h  h 
+ ddd aaa r   k  k ppp  h  h ii ss  h  h 
+                  p                     
+                  p${WHITE} ${__version__}
 	EOF
 }
 
@@ -368,20 +370,16 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN} Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
-		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/htr-tech
-		${GREEN} Social   ${RED}:  ${CYAN}https://tahmidrayat.is-a.dev
-		${GREEN} Version  ${RED}:  ${ORANGE}${__version__}
+		${GREEN} Author   ${RED}:  ${RED} Dark Vyper ${RED}
+		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/darkvyper
+                ${GREEN} Version  ${RED}:  ${ORANGE}${__version__}
 
 		${WHITE} ${REDBG}Warning:${RESETBG}
 		${CYAN}  This Tool is made for educational purpose 
 		  only ${RED}!${WHITE}${CYAN} Author will not be responsible for 
 		  any misuse of this toolkit ${RED}!${WHITE}
 		
-		${WHITE} ${CYANBG}Special Thanks to:${RESETBG}
-		${GREEN}  1RaY-1, Adi1090x, AliMilani, BDhackers009,
-		  KasRoudra, E343IO, sepp0, ThelinuxChoice,
-		  Yisus7u7
+
 
 		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORANGE} Exit
 
@@ -520,7 +518,7 @@ localxpose_auth() {
 		sleep 3
 		read -p "${RED}[${WHITE}-${RED}]${ORANGE} Input Loclx Token :${ORANGE} " loclx_token
 		[[ $loclx_token == "" ]] && {
-			echo -e "\n${RED}[${WHITE}!${RED}]${RED} You have to input Localxpose Token." ; sleep 2 ; tunnel_menu
+			echo -e "\n${RED}[${WHITE}!${RED}]${RED} You have to input Localxpose Token." ; 
 		} || {
 			echo -n "$loclx_token" > $auth_f 2> /dev/null
 		}
@@ -565,9 +563,9 @@ tunnel_menu() {
 	cat <<- EOF
 
 		${RED}[${WHITE}01${RED}]${ORANGE} Localhost
-		${RED}[${WHITE}02${RED}]${ORANGE} Ngrok.io     ${RED}[${CYAN}Account Needed${RED}]
-		${RED}[${WHITE}03${RED}]${ORANGE} Cloudflared  ${RED}[${CYAN}Auto Detects${RED}]
-		${RED}[${WHITE}04${RED}]${ORANGE} LocalXpose   ${RED}[${CYAN}NEW! Max 15Min${RED}]
+		${RED}[${WHITE}02${RED}]${ORANGE} Ngrok.io     ${RED}${RED}]
+		${RED}[${WHITE}03${RED}]${ORANGE} Cloudflared  ${RED}${RED}]
+		${RED}[${WHITE}04${RED}]${ORANGE} LocalXpose   ${RED}${RED}]
 
 	EOF
 

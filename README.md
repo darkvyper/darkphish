@@ -1,22 +1,12 @@
-<!-- Phishbot -->
-
-______  ___  ______ _   __ _____  _____ 
-|  _  \/ _ \ | ___ \ | / /|  _  ||  _  |
-| | | / /_\ \| |_/ / |/ / | |_| || |_| |
-| | | |  _  ||    /|    \ \____ |\____ |
-| |/ /| | | || |\ \| |\  \.___/ /.___/ /
-|___/ \_| |_/\_| \_\_| \_/\____/ \____/ 
+<!-- Darkphish -->
 
 <p align="center">
   <img src=".github/misc/logo.png">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-2.3.4-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/htr-tech/zphisher?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/htr-tech/zphisher?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/htr-tech/zphisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/htr-tech/zphisher?color=teal&style=for-the-badge">
+  <img src="https://img.shields.io/badge/github-darkphish-green">
+  <img src="https://img.shields.io/badge/VERSION-2.3.5-brightgreen">
 </p>
 
 

@@ -1,7 +1,7 @@
 <!-- Darkphish -->
 
 <p align="center">
-  <img src=".github/misc/logo.png">
+  <img src="https://i.imgur.com/TKDkULT.png">
 </p>
 
 <p align="center">
@@ -44,16 +44,16 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 - Just, Clone this repository -
   ```
-  git clone https://github.com/darkvyper/phishbot.git
+  git clone https://github.com/darkvyper/darkphish.git
   ```
 
-- Now go to cloned directory and run `phishbot.sh` -
+- Now go to cloned directory and run `darkphish.sh` -
   ```
-  $ cd phishbot
-  $ bash phishbot.sh
+  $ cd darkphish
+  $ bash darkphish.sh
   ```
 
-- On first launch, It'll install the dependencies and that's it. ***PHISHBOT*** is installed.
+- On first launch, It'll install the dependencies and that's it. ***DARKPHISH*** is installed.
 
 ##
 
@@ -68,7 +68,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 ##
 
-<b>Phishbot</b> requires following programs to run properly - 
+<b>Darkphish</b> requires following programs to run properly - 
 - `git`
 - `curl`
 - `php`

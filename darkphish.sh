@@ -518,7 +518,7 @@ localxpose_auth() {
 		sleep 3
 		read -p "${RED}[${WHITE}-${RED}]${ORANGE} Input Loclx Token :${ORANGE} " loclx_token
 		[[ $loclx_token == "" ]] && {
-			echo -e "\n${RED}[${WHITE}!${RED}]${RED} You have to input Localxpose Token." ; 
+			echo -e "\n${RED}[${WHITE}!${RED}]${RED} You have to input Localxpose Token." ; ;
 		} || {
 			echo -n "$loclx_token" > $auth_f 2> /dev/null
 		}
